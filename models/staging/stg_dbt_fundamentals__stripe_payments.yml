@@ -1,0 +1,9 @@
+models: 
+  - name: stg_dbt_fundamentals__stripe_payments
+    columns: 
+      - name: payment_id
+      - name: order_id 
+      - name: payment_created
+      - name: payment_status
+      - name: payment_amount
+      - name: payment_method

@@ -1,0 +1,7 @@
+models: 
+  - name: stg_dbt_fundamentals__customers
+    columns: 
+      - name: customer_id
+      - name: first_name
+      - name: last_name
+      - name: full_name
