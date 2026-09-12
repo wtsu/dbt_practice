@@ -3,7 +3,8 @@
 - Identifying and verifying any raw object dependencies
 - Understanding core dbt materializations
 - Conceptualizing modularity and how to incorporate DRY principles
-    - [creating a staging layer](https://github.com/wtsu/dbt_practice/pull/5)
+    - [configuring a staging layer](https://github.com/wtsu/dbt_practice/pull/5)
+    - [creating a staging and mart](https://github.com/wtsu/dbt_practice/pull/6)
 - Using commands such as build, run, test, docs, show, snapshot, and seed
     - [seed](https://github.com/wtsu/dbt_practice/pull/3)
 - Creating a logical flow of models and building clean DAGs
@@ -47,3 +48,4 @@
 # 07 Leveraging the dbt state
 - Understanding state and state selection
 - Using dbt retry
+    - [using dbt build || dbt retry](https://github.com/wtsu/dbt_practice/pull/7)
