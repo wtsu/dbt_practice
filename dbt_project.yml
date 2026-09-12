@@ -34,3 +34,15 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+seeds:
+  dbt_practice: 
+    jaffle_data: 
+      +schema: jaffle_data
+      +enabled: "{{ var('load_source_data', false) }}"
+    jaffle_data_classic:
+      +schema: jaffle_data_classic
+      +enabled: "{{ var('load_source_data', false) }}"
+    dbt_fundamentals: 
+      +schema: dbt_fundamentals
+      +enabled: "{{ var('load_source_data', false) }}"
