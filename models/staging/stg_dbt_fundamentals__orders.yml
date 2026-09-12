@@ -1,0 +1,8 @@
+models: 
+  - name: stg_dbt_fundamentals__orders
+    columns: 
+      - name: order_id
+      - name: customer_id
+      - name: order_date
+      - name: order_status
+      - name: valid_order_date

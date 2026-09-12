@@ -1,0 +1,26 @@
+sources: 
+  - name: dbt_fundamentals
+    database: raw
+    schema: dbt_fundamentals
+    tables: 
+      - name: customers
+      - name: orders
+      - name: stripe_payments
+  - name: jaffle_data
+    database: raw
+    schema: jaffle_data
+    tables: 
+      - name: raw_customers
+      - name: raw_items
+      - name: raw_orders
+      - name: raw_payments
+      - name: raw_products
+      - name: raw_stores
+      - name: raw_supplies
+  - name: jaffle_data_classic
+    database: raw
+    schema: jaffle_data_classic
+    tables: 
+      - name: raw_customers_classic
+      - name: raw_orders_classic
+      - name: raw_payments_classic
