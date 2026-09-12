@@ -37,6 +37,7 @@ models:
 
 seeds:
   dbt_practice: 
+    +database: raw
     jaffle_data: 
       +schema: jaffle_data
       +enabled: "{{ var('load_source_data', false) }}"
