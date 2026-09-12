@@ -1,0 +1,3 @@
+seeds: 
+  - name: raw_customers
+    alias: raw_customers_classic
