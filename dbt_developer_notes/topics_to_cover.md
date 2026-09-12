@@ -8,6 +8,7 @@
 - Creating a logical flow of models and building clean DAGs
 - Defining configurations in dbt_project.yml 
     - [generate_schema_name & custom schema location](https://github.com/wtsu/dbt_practice/pull/3)
+    - [creating seperate database](https://github.com/wtsu/dbt_practice/pull/4)
 - Using dbt Packages
 - Creating Python Models
 - Providing access to users to models with the grants config
