@@ -1,1 +1,1 @@
-SELECT * FROM {{ref('stg_dbt_fundamentals__orders')}}
+SELECT * FROM {{ref('incremental_orders')}}
