@@ -31,6 +31,7 @@
 - Troubleshooting .yml compilation errors
 - Developing and implementing a fix and testing it prior to merging
 - Managing dbt behavior with flags
+    - [using variables to define materialization](https://github.com/wtsu/dbt_practice/pull/9)
 
 # 04 Troubleshooting and optimizing dbt pipelines
 - Troubleshooting and managing failure points in the DA G
