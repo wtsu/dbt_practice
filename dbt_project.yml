@@ -51,3 +51,6 @@ seeds:
     dbt_fundamentals: 
       +schema: dbt_fundamentals
       +enabled: "{{ var('load_source_data', false) }}"
+
+vars: 
+  env_type: dev

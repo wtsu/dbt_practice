@@ -1,0 +1,5 @@
+models: 
+  - name: customers
+    config: 
+      materialized: "{{'view' if var('env_type','dev') == 'dev' else 'table'}}"
+        
