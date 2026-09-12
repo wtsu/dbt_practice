@@ -4,9 +4,10 @@
 - Understanding core dbt materializations
 - Conceptualizing modularity and how to incorporate DRY principles
 - Using commands such as build, run, test, docs, show, snapshot, and seed
+    - [seed](https://github.com/wtsu/dbt_practice/pull/3)
 - Creating a logical flow of models and building clean DAGs
 - Defining configurations in dbt_project.yml 
-    - 
+    - [generate_schema_name & custom schema location](https://github.com/wtsu/dbt_practice/pull/3)
 - Using dbt Packages
 - Creating Python Models
 - Providing access to users to models with the grants config
@@ -17,7 +18,7 @@
 - Understanding advanced dbt materializations such as microbatch
 
 # 02 Managing dbt models governance
-- Adding contracts to models to ensure the shape of models
+- Adding contracts to models to ensure the shape of model
 - Creating different versions of our models and deprecating the old ones
 - Defining constraints in YAML to enforce data integrity at the platform level
 
