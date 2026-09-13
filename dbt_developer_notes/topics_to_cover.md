@@ -16,6 +16,7 @@
 - Providing access to users to models with the grants config
     - [creating analyst_role and providing grants](https://github.com/wtsu/dbt_practice/pull/15)
 - Creating snapshots in YAML
+    - [check col snapshot on source with hard_deletes configs](https://github.com/wtsu/dbt_practice/pull/17)
 - Selecting the optimal incremental strategy based on a dataset's characteristics
 - Validating model logic and schema definitions in dry-runs using the --empty flag
     - [using the empty flag to test incremental model](https://github.com/wtsu/dbt_practice/pull/10)
@@ -44,6 +45,7 @@
 # 05 Implementing dbt tests
 - Using generic, singular, custom, custom generic, and unit tests on a wide variety of models and sources
     - [using target variable to conditionally enable default relationships test](https://github.com/wtsu/dbt_practice/pull/11)
+    - [creating a generic test](https://github.com/wtsu/dbt_practice/pull/16)
 - Testing assumptions for dbt models and sources
 - Implementing various testing steps in the workflow
 
