@@ -53,6 +53,7 @@
 # 06 Implementing and maintaining external dependencies
 - Implementing dbt exposures
 - Implementing source freshness
+    - [creating source freshness checks and using source_status:fresher](https://github.com/wtsu/dbt_practice/pull/19)
 
 # 07 Leveraging the dbt state
 - Understanding state and state selection
