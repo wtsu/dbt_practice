@@ -3,8 +3,8 @@
 - grants - x
 - model versioning with deprecation dates
 - samples
-- hard deletes with snapshots
-- snapshots with date and column strategies
+- hard deletes with snapshots -x
+- snapshots with date and column strategies -x
 - python model syntax with package import
 - python model and jinja incompatibility
 - source freshness syntax

@@ -35,4 +35,4 @@ WHERE id = 101;
 -- reset for testing
 drop table raw.manual_insert_data.employees;
 
-drop table analytics_dev.dbt_wtsu.employees_snapshot;
+drop table analytics_dev.snapshots.employees_snapshot;
