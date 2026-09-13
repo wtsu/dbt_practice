@@ -5,4 +5,5 @@ logs/
 .dbt.code-workspace
 .venv
 dbt_internal_packages/
-state/manifest.json  
+state/manifest.json
+state/source.json
