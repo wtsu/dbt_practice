@@ -17,6 +17,7 @@
 - Creating snapshots in YAML
 - Selecting the optimal incremental strategy based on a dataset's characteristics
 - Validating model logic and schema definitions in dry-runs using the --empty flag
+    - [using the empty flag to test incremental model](https://github.com/wtsu/dbt_practice/pull/10)
 - Running models in sample mode using the --sample flag
 - Understanding advanced dbt materializations such as microbatch
 
@@ -39,6 +40,7 @@
 
 # 05 Implementing dbt tests
 - Using generic, singular, custom, custom generic, and unit tests on a wide variety of models and sources
+    - [using target variable to conditionally enable default relationships test](https://github.com/wtsu/dbt_practice/pull/11)
 - Testing assumptions for dbt models and sources
 - Implementing various testing steps in the workflow
 
