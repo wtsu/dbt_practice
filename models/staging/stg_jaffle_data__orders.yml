@@ -1,0 +1,10 @@
+models: 
+  - name: stg_jaffle_data__orders
+    config: 
+      event_time: ordered_at
+    columns: 
+      - name: order_id
+        data_tests: 
+          - unique
+          - not_null
+      - name: ordered_at

@@ -1,0 +1,11 @@
+models: 
+  - name: incremental_jaffle_data_orders
+    config: 
+      materialized: incremental
+      incremental_strategy: microbatch
+      unique_key: order_id
+      event_time: ordered_at
+      begin: 2024-09-01
+      batch_size: month
+      lookback: 1
+      concurrent_batches: true
