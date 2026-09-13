@@ -1,0 +1,28 @@
+models: 
+  - name: model_version
+    latest_version: 2
+    config: 
+      contract: 
+        enforced: true
+    columns: 
+    - name: customer_id 
+      data_type: VARCHAR(16777216)
+    versions: 
+      - v: 1
+        columns:
+          - include: all
+        deprecation_date: '2026-09-10'
+      - v: 2
+        columns: 
+        - include: all
+          exclude: 
+            - customer_id
+        - name: customer_name
+          data_type: VARCHAR(16777216)
+        deprecation_date: '2026-09-15'
+      - v: 3
+        columns: 
+          - include: all 
+          - name: customer_name
+            data_type: VARCHAR(16777216)
+
