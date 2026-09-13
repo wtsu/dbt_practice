@@ -22,6 +22,7 @@
 - Validating model logic and schema definitions in dry-runs using the --empty flag
     - [using the empty flag to test incremental model](https://github.com/wtsu/dbt_practice/pull/10)
 - Running models in sample mode using the --sample flag
+    - [using relative and timebound samples](https://github.com/wtsu/dbt_practice/pull/20)
 - Understanding advanced dbt materializations such as microbatch
     - [creating microbatch](https://github.com/wtsu/dbt_practice/pull/12)
 
