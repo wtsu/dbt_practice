@@ -51,5 +51,6 @@
 
 # 07 Leveraging the dbt state
 - Understanding state and state selection
+    - [creating state file and trying dbt clone and state:new vs state:modified](https://github.com/wtsu/dbt_practice/pull/13)
 - Using dbt retry
     - [using dbt build || dbt retry](https://github.com/wtsu/dbt_practice/pull/7)

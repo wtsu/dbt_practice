@@ -1,5 +1,22 @@
 models: 
   - name: customers
+
     config: 
       materialized: "{{'view' if var('env_type','dev') == 'dev' else 'table'}}"
-        
+    columns: 
+      - name: customer_id
+        data_type: NUMBER(38,0)
+        constraints: 
+          - type: primary_key
+      - name: first_name
+        data_type: VARCHAR(16777216)
+      - name: last_name
+        data_type: VARCHAR(16777216)
+      - name: first_order
+        data_type: DATE
+      - name: most_recent_order
+        data_type: DATE
+      - name: number_of_orders
+        data_type: NUMBER(18,0)
+      - name: customer_lifetime_value
+        data_type: NUMBER(38,0)
