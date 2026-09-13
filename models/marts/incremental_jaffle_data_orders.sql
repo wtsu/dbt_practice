@@ -10,8 +10,3 @@ select
 from {{ref('stg_jaffle_data__orders')}} as o
 left join {{ref('stg_jaffle_data__customers')}} as c
     on o.customer_id = o.customer_id
-
-except 
-
-select * from analytics.marts.incremental_jaffle_data_orders
-    
