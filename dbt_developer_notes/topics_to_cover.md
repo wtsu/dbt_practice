@@ -20,6 +20,7 @@
     - [using the empty flag to test incremental model](https://github.com/wtsu/dbt_practice/pull/10)
 - Running models in sample mode using the --sample flag
 - Understanding advanced dbt materializations such as microbatch
+    - [creating microbatch](https://github.com/wtsu/dbt_practice/pull/12)
 
 # 02 Managing dbt models governance
 - Adding contracts to models to ensure the shape of model
