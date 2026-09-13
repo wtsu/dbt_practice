@@ -3,6 +3,8 @@ models:
 
     config: 
       materialized: "{{'view' if var('env_type','dev') == 'dev' else 'table'}}"
+      grants: 
+        select : ['ANALYST_ROLE']
     columns: 
       - name: customer_id
         data_type: NUMBER(38,0)
