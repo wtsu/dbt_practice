@@ -30,6 +30,7 @@
 - Adding contracts to models to ensure the shape of model
    - [constraints if contract is not enforced is just metadata](https://github.com/wtsu/dbt_practice/pull/14)
 - Creating different versions of our models and deprecating the old ones
+    - [creating 3 model versions to practice deprecation](https://github.com/wtsu/dbt_practice/pull/21)
 - Defining constraints in YAML to enforce data integrity at the platform level
 
 # 03 Debugging data modeling errors
