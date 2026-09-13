@@ -1,0 +1,8 @@
+macros: 
+  - name: test_is_even
+    description: is the column even
+    arguments: 
+      - name: model_name
+        description: the name of the model 
+      - name: column 
+        description: the column to apply the is_even on
