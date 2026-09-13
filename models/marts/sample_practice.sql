@@ -1,0 +1,1 @@
+SELECT * FROM {{ref('stg_manual_insert_orders')}} AS o
