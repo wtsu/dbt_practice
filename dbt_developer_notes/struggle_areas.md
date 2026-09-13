@@ -1,0 +1,11 @@
+- yml anchors
+- generic tests
+- grants
+- model versioning with deprecation dates
+- samples
+- hard deletes with snapshots
+- snapshots with date and column strategies
+- python model syntax with package import
+- python model and jinja incompatibility
+- source freshness syntax
+- state:modified syntax
