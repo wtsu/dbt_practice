@@ -16,6 +16,7 @@
 - Providing access to users to models with the grants config
     - [creating analyst_role and providing grants](https://github.com/wtsu/dbt_practice/pull/15)
 - Creating snapshots in YAML
+    - [check col snapshot on source with hard_deletes configs](https://github.com/wtsu/dbt_practice/pull/17)
 - Selecting the optimal incremental strategy based on a dataset's characteristics
 - Validating model logic and schema definitions in dry-runs using the --empty flag
     - [using the empty flag to test incremental model](https://github.com/wtsu/dbt_practice/pull/10)
