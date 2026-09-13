@@ -24,3 +24,8 @@ sources:
       - name: raw_customers_classic
       - name: raw_orders_classic
       - name: raw_payments_classic
+  - name: manual_insert_data
+    database: raw 
+    schema: manual_insert_data
+    tables: 
+      - name: employees

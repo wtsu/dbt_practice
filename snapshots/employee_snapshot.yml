@@ -1,0 +1,37 @@
+snapshots:
+  - name: employees_snapshot_ignore_deleted
+    relation: source('manual_insert_data','employees')
+    config:
+      materialized: snapshot
+      schema: snapshots
+      unique_key: id
+      strategy: check
+      check_cols:
+        - name
+        - department
+        - salary
+      hard_deletes: ignore
+  - name: employees_snapshot_invalidate_deleted
+    relation: source('manual_insert_data','employees')
+    config:
+      materialized: snapshot
+      schema: snapshots
+      unique_key: id
+      strategy: check
+      check_cols:
+        - name
+        - department
+        - salary
+      hard_deletes: invalidate
+  - name: employees_snapshot_new_record_deleted
+    relation: source('manual_insert_data','employees')
+    config:
+      materialized: snapshot
+      schema: snapshots
+      unique_key: id
+      strategy: check
+      check_cols:
+        - name
+        - department
+        - salary
+      hard_deletes: new_record
