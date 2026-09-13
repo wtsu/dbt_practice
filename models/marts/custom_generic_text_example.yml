@@ -1,0 +1,6 @@
+models: 
+  - name: custom_generic_test_example
+    columns: 
+      - name: val 
+        data_tests: 
+          - is_even
