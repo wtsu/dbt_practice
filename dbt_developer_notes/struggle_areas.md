@@ -1,11 +1,11 @@
 - yml anchors
-- generic tests
+- generic tests -x
 - grants - x
 - model versioning with deprecation dates
-- samples
+- samples - x
 - hard deletes with snapshots -x
 - snapshots with date and column strategies -x
 - python model syntax with package import
 - python model and jinja incompatibility
-- source freshness syntax
+- source freshness syntax -x
 - state:modified syntax
