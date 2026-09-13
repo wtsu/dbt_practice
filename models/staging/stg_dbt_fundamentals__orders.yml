@@ -3,6 +3,11 @@ models:
     columns: 
       - name: order_id
       - name: customer_id
+        data_tests: 
+          - relationships: 
+              arguments: 
+              - to: ref('stg_dbt_fundamentals__customers')
+              - field: customer_id
       - name: order_date
       - name: order_status
       - name: valid_order_date
