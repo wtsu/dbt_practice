@@ -1,0 +1,22 @@
+unit_tests: 
+  - name: test_name_starts_with_w
+    model: unit_test_example
+    given: 
+    - input: ref('stg_dbt_fundamentals__customers')
+      format: dict
+      rows: 
+        - {"first_name": "william", "customer_id": "1"}
+        - {"first_name": "john", "customer_id": "2"}
+        - {"first_name": "wilhem", "customer_id" : "3"}
+    - input: ref('stg_dbt_fundamentals__orders')
+      format: dict 
+      rows: 
+        - {"customer_id": "1"}
+        - {"customer_id": "2"}
+        - {"customer_id": "3"}
+    expect: 
+      format: dict 
+      rows: 
+        - {"starts_with_w": True}
+        - {"starts_with_w": False}
+        - {"starts_with_w": True}
