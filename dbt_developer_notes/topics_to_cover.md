@@ -37,6 +37,7 @@
 - Understanding logged error messages
 - Troubleshooting using compiled code
 - Troubleshooting .yml compilation errors
+    - [yml anchors and yml merge](https://github.com/wtsu/dbt_practice/pull/23)
 - Developing and implementing a fix and testing it prior to merging
 - Managing dbt behavior with flags
     - [using variables to define materialization](https://github.com/wtsu/dbt_practice/pull/9)
