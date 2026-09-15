@@ -1,0 +1,16 @@
+anchors: 
+  - &column_1 
+      name: column_1 
+      description: descrption of column 1
+      data_type: int
+  - &column_2
+      name: column_2
+      description: description of column 2
+      data_type: int
+
+models: 
+  - name: yml_anchor_model
+    columns: 
+      - *column_1
+      - <<: *column_2
+        data_type: bigint
