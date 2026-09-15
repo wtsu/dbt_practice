@@ -8,4 +8,8 @@
 - python model syntax with package import
 - python model and jinja incompatibility
 - source freshness syntax -x
-- state:modified syntax - x
+- state:modified syntax - 
+- dbt unit tests: 
+    - selecting unit tests only 
+    - overrides
+    - unit test macros
