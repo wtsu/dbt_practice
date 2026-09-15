@@ -1,0 +1,17 @@
+unit_tests: 
+  - name: test_incremental
+    model: unit_test_example_incremental
+    overrides:
+      macros:  
+        is_incremental: true
+    given: 
+      - input: ref('stg_dbt_fundamentals__orders')
+        format: dict 
+        rows: 
+          - { order_id: 2, order_status : 'completed', order_date : 2026-01-02}
+      - input: this
+        rows: 
+          - { order_id: 1, order_status : 'failed',  order_date : 2026-01-01, is_completed: false}
+    expect: 
+      rows: 
+          - { order_id: 2, order_status : 'completed', order_date : 2026-01-02, is_completed: true}
