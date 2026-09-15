@@ -50,6 +50,7 @@
 - Using generic, singular, custom, custom generic, and unit tests on a wide variety of models and sources
     - [using target variable to conditionally enable default relationships test](https://github.com/wtsu/dbt_practice/pull/11)
     - [creating a generic test](https://github.com/wtsu/dbt_practice/pull/16)
+    - [creating unit tests, for full refresh and incremental](https://github.com/wtsu/dbt_practice/pull/24)
 - Testing assumptions for dbt models and sources
 - Implementing various testing steps in the workflow
 
